@@ -5,8 +5,8 @@
   "main": "main.js",
   "scripts": {
     "build": "postcss assets/css/style.css -o style.css",
-    "watch": "watch 'npm run build' ./",
-    "serve": "cross-env NODE_ENV=development concurrently \"postcss assets/css/style.css -o style.css --watch\"  \"live-server .\""
+    "watch": "postcss assets/css/style.css -o style.css --watch",
+    "serve": "cross-env NODE_ENV=development concurrently \"postcss assets/css/style.css -o style.css --watch\"  \"live-server . --no-css-inject\""
   },
   "repository": {
     "type": "git",
@@ -20,16 +20,16 @@
   },
   "homepage": "https://github.com/leroyrosales/pom-chi#readme",
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^4.0.0",
-    "autoprefixer": "^10.2.3",
-    "cssnano": "^4.1.10",
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^4.1.11",
     "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.0.2",
+    "tailwindcss": "^2.1.1",
     "watch": "^1.0.2"
   },
   "devDependencies": {
-    "live-server": "^1.2.1",
-    "concurrently": "^5.3.0",
-    "cross-env": "^7.0.2"
+    "concurrently": "^6.0.1",
+    "cross-env": "^7.0.2",
+    "live-server": "^1.2.1"
   }
 }

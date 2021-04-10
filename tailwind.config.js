@@ -1,6 +1,9 @@
 module.exports = {
-  purge: [],
-  darkMode: false, 
+  mode: 'jit',
+  purge: [
+    '*.html',
+  ],
+  darkMode: false,
   theme: {
     extend: {
       colors: {},

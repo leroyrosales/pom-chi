@@ -4,7 +4,7 @@
   "description": "An HTML starter using PostCSS and TailwindCSS.",
   "main": "main.js",
   "scripts": {
-    "build": "postcss assets/css/style.css -o style.css",
+    "build": "TAILWIND_MODE=build NODE_ENV=production postcss assets/css/style.css -o style.css",
     "watch": "postcss assets/css/style.css -o style.css --watch",
     "serve": "cross-env NODE_ENV=development concurrently \"postcss assets/css/style.css -o style.css --watch\"  \"live-server . --no-css-inject\""
   },

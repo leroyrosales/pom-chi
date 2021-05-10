@@ -15,7 +15,7 @@ Simply run `npm i` to install all necessary packages. This starter currently use
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "autoprefixer": "^10.2.5",
-    "cssnano": "^4.1.11",
+    "cssnano": "^5.0.2",
     "postcss-cli": "^8.3.1",
     "tailwindcss": "^2.1.1",
     "watch": "^1.0.2"

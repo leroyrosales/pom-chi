@@ -1,0 +1,8 @@
+## Contributors
+
+[f3bruary](https://github.com/f3bruary)
+[Leroy Rosales](https://leroyrosales.com)
+
+## Site
+
+Software: Built with [Pomeranian Chihuahua](https://github.com/leroyrosales/pom-chi) by [Leroy Rosales](https://leroyrosales.com)

@@ -2,7 +2,7 @@
 
 ## Description
 
-An HTML starter using PostCSS and TailwindCSS.
+An HTML starter using TailwindCSS and Tailwind JIT (Just-In-Time) [https://tailwindcss.com/docs/just-in-time-mode](https://tailwindcss.com/docs/just-in-time-mode).
 
 ## Why use this starter?
 
@@ -13,11 +13,9 @@ Simply run `npm i` to install all necessary packages. This starter currently use
 
 ```bash
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^4.0.3",
     "autoprefixer": "^10.2.5",
     "cssnano": "^5.0.2",
-    "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.1.1",
+    "tailwindcss": "^2.2.2",
     "watch": "^1.0.2"
   },
   "devDependencies": {
@@ -28,7 +26,7 @@ Simply run `npm i` to install all necessary packages. This starter currently use
 ```
 ## Using this starter
 
-This starter comes with it's own live-server package so to get up and running locally simply run `npm run serve`. Running `serve` sets up a local live-server instance at port `8080` while also watching for markup or style changes applied to any `.html` files in root, and changes made in the `assets/css` directory.
+This starter comes with it's own live-server package, to get up and running locally simply run `npm run serve`. Running `serve` sets up a local live-server instance at port `8080` while also watching for markup or style changes applied to any `.html` files in root, and changes made in the `assets/css` directory.
 
 If you have a preferred, or are using your own, local live server tool simply run your server and use `npm run watch` to just watch for changes in any `.html` file and changes made in the `assets/css` directory.
 

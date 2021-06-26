@@ -5,8 +5,8 @@
   "main": "main.js",
   "scripts": {
     "build": "TAILWIND_MODE=build NODE_ENV=production npx tailwindcss -i ./assets/css/style.css -o ./style.css --minify",
-    "watch": "npx tailwindcss -i ./assets/css/style.css -o ./style.css --watch",
-    "serve": "cross-env NODE_ENV=development concurrently \"npx tailwindcss -i ./assets/css/style.css -o ./style.css --watch --jit --purge ./*.html\"  \"live-server . --no-css-inject\""
+    "watch": "npx tailwindcss -i assets/css/style.css -o style.css --watch",
+    "serve": "cross-env NODE_ENV=development concurrently \"npx tailwindcss -i ./assets/css/style.css -o ./style.css -w --jit --purge \"./*.html\"\"  \"live-server . --no-css-inject\""
   },
   "repository": {
     "type": "git",

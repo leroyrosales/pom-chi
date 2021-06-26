@@ -1,12 +1,12 @@
 {
   "name": "pom-chi",
-  "version": "1.0.0",
-  "description": "An HTML starter using PostCSS and TailwindCSS.",
+  "version": "1.1.0",
+  "description": "An HTML starter using TailwindCSS.",
   "main": "main.js",
   "scripts": {
-    "build": "postcss assets/css/style.css -o style.css",
-    "watch": "watch 'npm run build' ./",
-    "serve": "cross-env NODE_ENV=development concurrently \"postcss assets/css/style.css -o style.css --watch\"  \"live-server .\""
+    "build": "TAILWIND_MODE=build NODE_ENV=production npx tailwindcss -i ./assets/css/style.css -o ./style.css --minify",
+    "watch": "npx tailwindcss -i ./assets/css/style.css -o ./style.css --watch",
+    "serve": "cross-env NODE_ENV=development concurrently \"npx tailwindcss -i ./assets/css/style.css -o ./style.css --watch --jit --purge ./*.html\"  \"live-server . --no-css-inject\""
   },
   "repository": {
     "type": "git",
@@ -20,16 +20,14 @@
   },
   "homepage": "https://github.com/leroyrosales/pom-chi#readme",
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^4.0.0",
-    "autoprefixer": "^10.2.3",
-    "cssnano": "^4.1.10",
-    "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.0.2",
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.2",
+    "tailwindcss": "^2.2.2",
     "watch": "^1.0.2"
   },
   "devDependencies": {
-    "live-server": "^1.2.1",
-    "concurrently": "^5.3.0",
-    "cross-env": "^7.0.2"
+    "concurrently": "^6.0.1",
+    "cross-env": "^7.0.2",
+    "live-server": "^1.2.1"
   }
 }

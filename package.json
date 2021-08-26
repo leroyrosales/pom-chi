@@ -4,7 +4,8 @@
   "description": "An HTML starter using TailwindCSS.",
   "main": "main.js",
   "scripts": {
-    "build": "TAILWIND_MODE=build NODE_ENV=production npx tailwindcss -i ./assets/css/style.css --jit -o ./style.css --minify",
+    "build": "cross-env TAILWIND_MODE=build NODE_ENV=development npx tailwindcss -i ./assets/css/style.css --jit -o ./style.css ",
+    "prod": "cross-env TAILWIND_MODE=build NODE_ENV=production npx tailwindcss -i ./assets/css/style.css --jit -o ./style.css --minify",
     "watch": "npx tailwindcss -i assets/css/style.css -o style.css --watch",
     "serve": "cross-env NODE_ENV=development concurrently \"npx tailwindcss -i ./assets/css/style.css -o ./style.css -w\"  \"live-server . --no-css-inject\""
   },
@@ -20,14 +21,13 @@
   },
   "homepage": "https://github.com/leroyrosales/pom-chi#readme",
   "dependencies": {
-    "autoprefixer": "^10.2.5",
-    "cssnano": "^5.0.2",
-    "tailwindcss": "^2.2.2",
-    "watch": "^1.0.2"
+    "autoprefixer": "^10.3.3",
+    "cssnano": "^5.0.8",
+    "tailwindcss": "^2.2.7"
   },
   "devDependencies": {
-    "concurrently": "^6.0.1",
-    "cross-env": "^7.0.2",
+    "concurrently": "^6.2.1",
+    "cross-env": "^7.0.3",
     "live-server": "^1.2.1"
   }
 }

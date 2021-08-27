@@ -13,14 +13,13 @@ Simply run `npm i` to install all necessary packages. This starter currently use
 
 ```bash
   "dependencies": {
-    "autoprefixer": "^10.2.5",
-    "cssnano": "^5.0.2",
-    "tailwindcss": "^2.2.2",
-    "watch": "^1.0.2"
+    "autoprefixer": "^10.3.3",
+    "cssnano": "^5.0.8",
+    "tailwindcss": "^2.2.7"
   },
   "devDependencies": {
-    "concurrently": "^6.0.1",
-    "cross-env": "^7.0.2",
+    "concurrently": "^6.2.1",
+    "cross-env": "^7.0.3",
     "live-server": "^1.2.1"
   }
 ```

@@ -1,6 +1,7 @@
 ## Contributors
 
 [f3bruary](https://github.com/f3bruary)
+[skrantzman](https://github.com/skrantzman)
 [Leroy Rosales](https://leroyrosales.com)
 
 ## Site

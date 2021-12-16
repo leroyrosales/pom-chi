@@ -13,9 +13,9 @@ Simply run `npm i` to install all necessary packages. This starter currently use
 
 ```bash
   "dependencies": {
-    "autoprefixer": "^10.3.3",
-    "cssnano": "^5.0.8",
-    "tailwindcss": "^2.2.7"
+    "autoprefixer": "^10.4.0",
+    "cssnano": "^5.0.12",
+    "tailwindcss": "^3.0.5"
   },
   "devDependencies": {
     "concurrently": "^6.2.1",

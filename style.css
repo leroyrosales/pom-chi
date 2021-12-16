@@ -455,24 +455,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(99 102 241 / var(--tw-text-opacity));
 }
 
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
-}
-
 .underline {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-}
-
-.decoration-indigo-500 {
-  -webkit-text-decoration-color: #6366f1;
-          text-decoration-color: #6366f1;
-}
-
-.decoration-red-500 {
-  -webkit-text-decoration-color: #ef4444;
-          text-decoration-color: #ef4444;
 }
 
 .decoration-white {
@@ -494,9 +479,4 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:decoration-solid:hover {
   -webkit-text-decoration-style: solid;
           text-decoration-style: solid;
-}
-
-.hover\:decoration-dashed:hover {
-  -webkit-text-decoration-style: dashed;
-          text-decoration-style: dashed;
 }

@@ -42,7 +42,7 @@ Please make sure to update tests as appropriate.
 Rudie
 2006 - 2022
 
-https://texaschihuahuarescue.org/
-https://recycledpoms.org/
-https://chihuahua.rescueme.org/texas
-https://pomeranian.rescueme.org/Texas
+- https://texaschihuahuarescue.org/
+- https://recycledpoms.org/
+- https://chihuahua.rescueme.org/texas
+- https://pomeranian.rescueme.org/Texas

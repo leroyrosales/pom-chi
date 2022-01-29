@@ -2,7 +2,7 @@
 
 ## Description
 
-An HTML starter using TailwindCSS and Tailwind JIT (Just-In-Time) [https://tailwindcss.com/docs/just-in-time-mode](https://tailwindcss.com/docs/just-in-time-mode).
+An HTML starter using Tailwind CSS [https://tailwindcss.com/](https://tailwindcss.com/).
 
 ## Why use this starter?
 
